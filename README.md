@@ -1,6 +1,6 @@
 # Mijourney-enhanced
 ![i2tOJF.png](https://i.328888.xyz/2023/04/01/i2tOJF.png)
-主要功能是自动分段翻译Midhourney网站的提示词，同时增加了快捷复制按钮，点击按钮会快速复制未翻译前的提示词
+主要功能是自动分段翻译Midhourney网站的提示词，同时在提示词后面增加了快捷复制按钮，点击按钮会快速复制未翻译前的提示词
 ## 如何使用
 1. 下载压缩包后解压
 2. 将 content_script.js 文件种的 API KEY 改成你自己的 Google 翻译 API KEY，后续将支持 ChatGPT 翻译
