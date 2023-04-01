@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Midjourney Translation Extension",
+  "version": "1.0",
+  "description": "Automatically translate the prompt word for the specified location on the Midjourney page",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": ["declarativeContent", "storage", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
