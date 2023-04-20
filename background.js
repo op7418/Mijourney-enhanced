@@ -4,7 +4,10 @@ chrome.runtime.onInstalled.addListener(() => {
       {
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { urlMatches: 'www.midjourney.com/app/jobs/' },
+            pageUrl: {
+              urlMatches:
+                "(www.midjourney.com|nijijourney.com)/([a-z]{2}/)?app/jobs/",
+            },
           }),
         ],
         actions: [new chrome.declarativeContent.RequestContentScript({ js: ['content_script.js'] })],

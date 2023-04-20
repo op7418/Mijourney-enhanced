@@ -53,7 +53,7 @@ async function processPage() {
 }
 
 function isTargetURL(url) {
-  const pattern = /^https?:\/\/www\.midjourney\.com\/app\/jobs\//;
+  const pattern = /^https?:\/\/(www\.midjourney\.com|nijijourney\.com)\/([a-z]{2}\/)?app\/jobs\//;
   return pattern.test(url);
 }
 
